@@ -1,0 +1,107 @@
+.pagecontainer {
+  width: 980px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  height: 500px;
+}
+.canvasname {
+  font-weight: bold;
+}
+
+.instruction {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d9dce1;
+  color: #1a578a;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.btnnxt {
+  border-radius: 0.2rem;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  background: #0044cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.loading {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 75%;
+  height: 100%;
+
+  /* border: 1px solid black; */
+  font-weight: bold;
+}
+
+.inst {
+  margin-top: 2rem;
+}
+.countt {
+  color: #0044cc;
+  font-size: 1.3rem;
+}
+.paneltop {
+  display: flex;
+  justify-content: space-between;
+  height: 21px;
+  margin: 0;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 20px;
+  text-shadow: 1px 1px 0 #fff;
+  vertical-align: middle;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(238, 238, 243, 1) 0%,
+    rgba(215, 219, 224, 1) 100%
+  );
+}
+.timerrec {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.loadercont {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 120px;
+  background-color: #d9dce1;
+
+  border: 1px solid #ccc;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.4rem;
+}
+.imagecont {
+  padding-left: 2rem;
+}
+.bi-clock {
+  font-size: 4rem;
+}
+
+.progress-container {
+  width: 80%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+.progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #76c7c0;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
